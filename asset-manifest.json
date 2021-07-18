@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dobrarobienowytestbotaklol/static/css/main.a617e044.chunk.css",
+    "main.js": "/dobrarobienowytestbotaklol/static/js/main.78c6cfd9.chunk.js",
+    "main.js.map": "/dobrarobienowytestbotaklol/static/js/main.78c6cfd9.chunk.js.map",
+    "runtime-main.js": "/dobrarobienowytestbotaklol/static/js/runtime-main.cd8002c1.js",
+    "runtime-main.js.map": "/dobrarobienowytestbotaklol/static/js/runtime-main.cd8002c1.js.map",
+    "static/js/2.7b30aef6.chunk.js": "/dobrarobienowytestbotaklol/static/js/2.7b30aef6.chunk.js",
+    "static/js/2.7b30aef6.chunk.js.map": "/dobrarobienowytestbotaklol/static/js/2.7b30aef6.chunk.js.map",
+    "static/js/3.70effd8a.chunk.js": "/dobrarobienowytestbotaklol/static/js/3.70effd8a.chunk.js",
+    "static/js/3.70effd8a.chunk.js.map": "/dobrarobienowytestbotaklol/static/js/3.70effd8a.chunk.js.map",
+    "index.html": "/dobrarobienowytestbotaklol/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/dobrarobienowytestbotaklol/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.7b30aef6.chunk.js.LICENSE.txt": "/dobrarobienowytestbotaklol/static/js/2.7b30aef6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd8002c1.js",
+    "static/js/2.7b30aef6.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.78c6cfd9.chunk.js"
+  ]
+}
