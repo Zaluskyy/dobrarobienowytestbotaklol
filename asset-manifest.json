@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dobrarobienowytestbotaklol/static/css/main.42b968cd.chunk.css",
-    "main.js": "/dobrarobienowytestbotaklol/static/js/main.3968f9f6.chunk.js",
-    "main.js.map": "/dobrarobienowytestbotaklol/static/js/main.3968f9f6.chunk.js.map",
+    "main.js": "/dobrarobienowytestbotaklol/static/js/main.3ab1e190.chunk.js",
+    "main.js.map": "/dobrarobienowytestbotaklol/static/js/main.3ab1e190.chunk.js.map",
     "runtime-main.js": "/dobrarobienowytestbotaklol/static/js/runtime-main.0e9a9804.js",
     "runtime-main.js.map": "/dobrarobienowytestbotaklol/static/js/runtime-main.0e9a9804.js.map",
     "static/js/2.1c97913f.chunk.js": "/dobrarobienowytestbotaklol/static/js/2.1c97913f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0e9a9804.js",
     "static/js/2.1c97913f.chunk.js",
     "static/css/main.42b968cd.chunk.css",
-    "static/js/main.3968f9f6.chunk.js"
+    "static/js/main.3ab1e190.chunk.js"
   ]
 }
