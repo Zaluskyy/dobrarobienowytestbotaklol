@@ -21,18 +21,44 @@ function App() {
   const canvas = useRef(null)
   const requestRef = React.useRef()
 
+  const ballSize = 50
+  
+
+  const [canvasSize, setCanvasSize] = useState(window.innerWidth/2-50)
+
+  
   
 
   class Magic{
     constructor(x, y){
       this.x = x
       this.y = y
+      this.velocity = {
+        x: randMinMax(-2, 2),
+        y: randMinMax(-2, 2)
+      }
+      this.radius = ballSize
     }
     draw(){
       const c = canvas.current.getContext("2d");
       c.beginPath()
-      c.arc(this.x, this.y, 50, 0, Math.PI*2, false)
+      c.arc(this.x, this.y, this.radius, 0, Math.PI*2, false)
       c.stroke()
+    }
+
+    update(){
+
+      this.x += this.velocity.x
+      this.y += this.velocity.y
+
+    if(this.x>canvas.current.width-this.radius||this.x<this.radius){
+      this.velocity.x *= -1
+    }
+    if(this.y>canvas.current.height-this.radius||this.y<this.radius){
+      this.velocity.y *= -1
+    }
+
+      this.draw()
     }
   }
 
@@ -58,14 +84,18 @@ function App() {
     requestRef.current = requestAnimationFrame(animate);
     c.clearRect(0, 0, window.innerWidth, window.innerHeight)
     for(let i = 0; i < magic.length; i++){
-      magic[i].draw()
+      magic[i].update()
     }
     // magic.draw()
   }
 
+  window.addEventListener("resize", ()=>{
+    setCanvasSize(window.innerWidth/2-50)
+  })
+
   return (
     <div className="App">
-      <canvas ref={canvas} width={500} height={500} style={{ marginTop:"150px", backgroundColor: "yellow"}} ></canvas>
+      <canvas ref={canvas} width={canvasSize} height={canvasSize} style={{ marginTop:"150px", backgroundColor: "yellow"}} ></canvas>
     </div>
   );
 }
